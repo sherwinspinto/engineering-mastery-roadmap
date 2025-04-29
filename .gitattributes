@@ -1,0 +1,12 @@
+# Treat all Markdown files as text and normalize line endings
+*.md text eol=lf
+
+# Normalize Python and code file line endings
+*.py text eol=lf
+*.ipynb text eol=lf
+
+# Treat images as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

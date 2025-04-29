@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IntelliJ IDEA and PyCharm project files
+.idea/
+*.iml
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python virtual environment metadata
+pip-log.txt
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# VSCode support if you open the repo there
+.vscode/
+
+# Jupyter notebook output files
+*.nbconvert.ipynb
+
+# Markdown preview tools / temp files
+*.bak
+*.swp
+
+# matplotlib-generated plots (optional if large)
+*.png
+*.pdf
+
+# Personal files (optional pattern for backups)
+*_backup.*
