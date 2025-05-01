@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5]
 y = [0,3,2,3,4,5]
 
-fig, ax = plt.subplots(2, 2)
+fig, ax = plt.subplots(1, 1)
 ax.set_title(label="My First Plot")
 ax.set_xlabel("X - Axis")
 ax.grid(visible=True)
