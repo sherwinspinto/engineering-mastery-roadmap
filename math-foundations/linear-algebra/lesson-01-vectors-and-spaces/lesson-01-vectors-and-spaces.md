@@ -18,6 +18,9 @@ A vector is an **ordered list of numbers** representing a position or direction 
   $$
   \vec{v} = [3, -1, 2] \in \mathbb{R}^3
   $$
+- Algebraically, a vector is like a coordinate list or a directional instruction — but it doesn’t necessarily point to a location unless you define it with respect to the origin. 
+- It’s not “where you are”, but “how to move” — 3 units in x, -1 unit in y, 2 units in z.
+
   
 ### Geometric View:
 A vector can be visualized as an **arrow** from the origin, indicating **magnitude and direction**.
@@ -59,6 +62,18 @@ $$
   $$
   \text{Span}(\{[1, 1]\}) = \text{Line through origin at 45°}
   $$
+- Example of a vector that lies in a span. \
+ $ \vec{v}_1 = [2,1], \vec{v}_2 = [-1,1], \vec{w} = [1,3] $ \
+We need to show that $\vec{w} = [1,3] $ is in the span of $ \vec{v}_1 = [2,1], \vec{v}_2 = [-1,1]$ \
+so we solve for $a\vec{v}_1 + b\vec{v}_2 = \vec{w}$ \
+i.e \
+$ a[2,1] + b[-1,1] = [1,3] \:\: which \: gives \: us  \: a=\frac{4}{3} \: and \: b=\frac{5}{3} $ \
+this means that $\vec{w}$ is in the span of $\vec{v_1} \: and \: \vec{v_2}$ \
+  You can think of it like this:
+  If you were standing at the origin and could only walk in the directions of $\vec{v}_1$ and $\vec{v}_2$, then yes — you could reach the point [1, 3] by walking $\frac{4}{3}$ steps in direction $\vec{v}_1$ and $\frac{5}{3}$ in direction $\vec{v}_2.$
+
+  
+  
 
 ---
 

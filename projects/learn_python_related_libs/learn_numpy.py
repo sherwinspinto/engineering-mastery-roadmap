@@ -39,3 +39,9 @@ print_array_attr(palette[image, image])
 
 # ix_() function used in matrix operations
 a = np.array([2, 3, 4, 5])
+
+# Convert 1D to 2D using newaxis
+new_ax = np.array([1,2,3,4,5,6])
+print_array_attr(new_ax)
+new_ax1 = new_ax[np.newaxis,:]
+print_array_attr(new_ax1)
