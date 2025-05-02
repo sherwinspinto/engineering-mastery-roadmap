@@ -10,14 +10,14 @@
 
 | Concept                              | Understood? | Practiced? | Notes / Questions |
 |--------------------------------------|-------------|------------|-------------------|
-| Definition of a vector (algebraic)   | [ ]         | [ ]        |                   |
-| Geometric interpretation (2D/3D)     | [ ]         | [ ]        |                   |
-| Vector addition                      | [ ]         | [ ]        |                   |
-| Scalar multiplication                | [ ]         | [ ]        |                   |
-| Linear combinations                  | [ ]         | [ ]        |                   |
-| Span of a set of vectors             | [ ]         | [ ]        |                   |
-| What defines a vector space          | [ ]         | [ ]        |                   |
-| Real-world analogies (RGB, velocity) | [ ]         | [ ]        |                   |
+| Definition of a vector (algebraic)   | [ ✅]        | [ ]        |                   |
+| Geometric interpretation (2D/3D)     | [ ✅]        | [ ]        |                   |
+| Vector addition                      | [ ✅]        | [ ]        |                   |
+| Scalar multiplication                | [ ✅]        | [ ]        |                   |
+| Linear combinations                  | [ ✅]        | [ ]        |                   |
+| Span of a set of vectors             | [ ✅]        | [ ]        |                   |
+| What defines a vector space          | [ ✅]        | [ ]        |                   |
+| Real-world analogies (RGB, velocity) | [ ✅]        | [ ]        |                   |
 
 ---
 
