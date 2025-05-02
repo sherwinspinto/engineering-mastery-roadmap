@@ -174,6 +174,60 @@ Subspaces help us define solution spaces, transformations, and constraints in hi
 
 ---
 
+# ✅ Summary: Basis and Dimension
+
+## 🔹 What is a Basis?
+
+A **basis** of a vector space $ V $ is a set of vectors that:
+
+1. **Span** the space — every vector in $ V $ can be written as a linear combination of them.
+2. Are **linearly independent** — no vector in the set can be written as a linear combination of the others.
+
+---
+
+## 🔹 What is Dimension?
+
+> The **dimension** of a vector space is the number of vectors in any basis for that space.
+
+- It tells you the **degrees of freedom** or the **minimal number of directions** needed to describe the space.
+
+---
+
+## 🧠 Examples
+
+| Vector Space         | Basis Example                                       | Dimension |
+|----------------------|-----------------------------------------------------|-----------|
+| $ \mathbb{R}^2 $     | $ \{ [1, 0], [0, 1] \} $                            | 2         |
+| $ \mathbb{R}^3 $     | $ \{ [1, 0, 0], [0, 1, 0], [0, 0, 1] \} $           | 3         |
+| Line through origin  | $ \{ [1, 2] \} $ (or any nonzero scalar multiple)   | 1         |
+| Plane through origin | $ \{ [1, 0, 0], [0, 1, 0] \} \subset \mathbb{R}^3 $ | 2         |
+
+---
+
+## 🔁 Key Facts
+
+- **All bases** for a given space have the **same number of vectors**
+- **Span + independence** = basis
+- **Dimension** is a property of the space, not the specific basis you choose
+
+---
+
+## ❌ Not a Basis If...
+
+- The vectors are **linearly dependent**
+- The vectors **don’t span** the whole space
+
+---
+
+## ✅ Practical Use
+
+- Knowing the basis simplifies:
+  - Representing vectors
+  - Solving linear systems
+  - Understanding the shape and constraints of data spaces
+
+---
+
 ## 🧪 Suggested Practice
 
 - Plot vectors using `matplotlib` in 2D and 3D
