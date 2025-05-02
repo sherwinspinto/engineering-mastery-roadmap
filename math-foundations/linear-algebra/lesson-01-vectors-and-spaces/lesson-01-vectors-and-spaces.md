@@ -123,6 +123,57 @@ Think of:
 
 ---
 
+# ✅ Summary: Vector Subspaces
+
+## 🔹 What is a Subspace?
+
+A **subspace** is a subset $ W \subseteq V $ of a vector space $ V $ that is **itself a vector space** under the same operations of addition and scalar multiplication.
+
+---
+
+## ✅ Subspace Test (3 Conditions)
+
+To be a subspace, a set must:
+
+1. **Contain the zero vector**:  
+   $ \vec{0} \in W $
+
+2. **Be closed under vector addition**:  
+   $ \vec{u}, \vec{v} \in W \Rightarrow \vec{u} + \vec{v} \in W $
+
+3. **Be closed under scalar multiplication**:  
+   $ a \in \mathbb{R},\ \vec{v} \in W \Rightarrow a\vec{v} \in W $
+
+---
+
+## 🧪 Examples of Subspaces
+
+| Subspace                                 | Parent Vector Space $ V $   | Notes                                      |
+|------------------------------------------|-----------------------------|--------------------------------------------|
+| Line through origin in $ \mathbb{R}^2 $  | $ \mathbb{R}^2 $            | Span of a single vector                    |
+| Plane through origin in $ \mathbb{R}^3 $ | $ \mathbb{R}^3 $            | Span of two independent vectors            |
+| Null space of a matrix $ A $             | $ \mathbb{R}^n $            | Set of solutions to $ A\vec{x} = \vec{0} $ |
+| Set of symmetric 2×2 matrices            | $ \mathbb{R}^{2 \times 2} $ | Closed under matrix addition/scaling       |
+
+---
+
+## ❌ Not Subspaces — and Why
+
+| Set Definition                                       | Why Not a Subspace                                    |
+|------------------------------------------------------|-------------------------------------------------------|
+| $ W = \{ [x, y] \in \mathbb{R}^2 \mid x > 0 \} $     | Doesn’t include zero vector; not closed under scaling |
+| $ W = \{ [x, y] \in \mathbb{R}^2 \mid x + y = 1 \} $ | Violates scalar multiplication and lacks zero vector  |
+
+---
+
+## 🧠 Key Insight
+
+> Every **span** of vectors is a subspace — and every subspace can be described as the **span of a set of vectors**.
+
+Subspaces help us define solution spaces, transformations, and constraints in high-dimensional systems.
+
+---
+
 ## 🧪 Suggested Practice
 
 - Plot vectors using `matplotlib` in 2D and 3D
