@@ -24,6 +24,19 @@ This chapter dives into the ideas of **basis** and **dimension**, which help des
 - ℝ³ has dimension 3; basis: {[1, 0, 0], [0, 1, 0], [0, 0, 1]}
 - A line through the origin has dimension 1
 
+# ✅ Summary: Real-World Examples of Dimension
+
+| Context                | Object or Representation | Dimension | Notes                                                   |
+|------------------------|--------------------------|-----------|---------------------------------------------------------|
+| 2D Drawing on Paper    | (x, y) coordinates       | 2         | Two axes (horizontal and vertical) define the space     |
+| Drone in 3D Space      | (x, y, z) position       | 3         | Movement in full 3D — 3 degrees of freedom              |
+| RGB Color Pixel        | [R, G, B]                | 3         | Red, green, and blue channels define the color vector   |
+| Stock Portfolio        | Vector of asset weights  | N         | N stocks = N-dimensional space                          |
+| Text Embeddings in NLP | Word vector (e.g. 300D)  | 300+      | Each word is a point in high-dimensional semantic space |
+| PCA (Data Compression) | Principal components     | Variable  | Effective dimension is reduced, capturing most variance |
+
+![Real-World Examples of Dimension](real_world_examples_of_dimension_infographic.png)
+
 ---
 
 ## 4️⃣ Summary Table
