@@ -85,8 +85,17 @@ A **vector space** is a set of vectors closed under:
 
 It must satisfy **8 axioms** (associativity, identity, distributivity, etc.) — these will be explored in a later lesson.
 
+🔧 Analogy
+
+Think of:
+-	**Vector space** definition = rulebook (like the rules of chess)
+-	**Span of vectors** = specific pieces following those rules to reach certain positions
+-	The span lives inside the larger space defined by the rules
+
+<font color="red">So you don’t use the span after the vector space is defined — rather, span is how you generate actual subsets that are vector spaces, within a broader space (like ℝ³).</font>
+
 ### Common Examples:
-- \( \mathbb{R}^n \) (Euclidean spaces)
+- $ ( \mathbb{R}^n ) (Euclidean spaces)$
 - Set of all polynomials of degree ≤ n
 - 2×2 matrices
 - Continuous functions
