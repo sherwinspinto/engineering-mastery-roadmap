@@ -104,9 +104,7 @@ Think of:
 
 ## 5️⃣ Visual Intuition & Real-World Applications
 
-- **Physics**: Displacement, velocity vectors
-- **Graphics**: RGB color values as vectors in 3D
-- **Finance**: Portfolio weights modeled as vectors
+![Real-world applications Vector Space](A_2D_digital_infographic_titled_Real-world_exampl.png)
 
 ---
 
