@@ -41,4 +41,12 @@ This chapter dives into the ideas of **basis** and **dimension**, which help des
 
 ## 4️⃣ Summary Table
 
-_To be completed after lessons are explored._
+| Concept             | Definition                                                                |
+|---------------------|---------------------------------------------------------------------------|
+| Basis               | A set of **linearly independent vectors** that **span** a vector space    |
+| Span                | All possible **linear combinations** of a set of vectors                  |
+| Linear Independence | No vector in the set can be written as a **combination of the others**    |
+| Dimension           | The number of vectors in any **basis** of the vector space                |
+| Redundant Vectors   | Extra vectors that don't increase the span — violate independence         |
+| Minimum Set         | A basis is the **smallest set** that can generate the entire space        |
+| Uniqueness          | Every vector in the space has a **unique expression** using basis vectors |
