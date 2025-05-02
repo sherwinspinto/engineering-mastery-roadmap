@@ -108,6 +108,21 @@ Think of:
 
 ---
 
+# ✅ Summary Table: The 8 Vector Space Axioms
+
+| # | Axiom Name                          | Operation             | Description                                                                                             |
+|---|-------------------------------------|-----------------------|---------------------------------------------------------------------------------------------------------|
+| 1 | Additive Closure                    | Vector Addition       | The sum of any two vectors in V is also in V                                                            |
+| 2 | Additive Commutativity              | Vector Addition       | $  \vec{u} + \vec{v} = \vec{v} + \vec{u}  $                                                             | 
+| 3 | Additive Associativity              | Vector Addition       | $  \vec{u} + (\vec{v} + \vec{w}) = (\vec{u} + \vec{v}) + \vec{w}  $                                     |
+| 4 | Additive Identity                   | Vector Addition       | There exists a zero vector $ \vec{0} \in V $ such that $ \vec{v} + \vec{0} = \vec{v} $                  |
+| 5 | Additive Inverse                    | Vector Addition       | For every $ \vec{v} \in V $, there is a $ -\vec{v} \in V $ such that $ \vec{v} + (-\vec{v}) = \vec{0} $ |
+| 6 | Scalar Multiplicative Closure       | Scalar Multiplication | $ a \cdot \vec{v} \in V $ for any scalar $ a \in \mathbb{R} )$, $( \vec{v} \in V $                      |
+| 7 | Distributivity over Vector Addition | Mixed                 | $ a(\vec{u} + \vec{v}) = a\vec{u} + a\vec{v} $                                                          |
+| 8 | Distributivity over Scalar Addition | Mixed                 | $ (a + b)\vec{v} = a\vec{v} + b\vec{v} $                                                                |
+
+---
+
 ## 🧪 Suggested Practice
 
 - Plot vectors using `matplotlib` in 2D and 3D
