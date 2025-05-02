@@ -72,7 +72,7 @@ this means that $\vec{w}$ is in the span of $\vec{v_1} \: and \: \vec{v_2}$ \
   You can think of it like this:
   If you were standing at the origin and could only walk in the directions of $\vec{v}_1$ and $\vec{v}_2$, then yes — you could reach the point [1, 3] by walking $\frac{4}{3}$ steps in direction $\vec{v}_1$ and $\frac{5}{3}$ in direction $\vec{v}_2.$
 
-  
+  ![Real-world applications of span and linear combinations](A_grid_of_six_squares_presents_practical_examples_.png)
   
 
 ---
